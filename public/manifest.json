@@ -1,0 +1,18 @@
+{
+    "manifest_version": 3,
+    "name": "GitSnap",
+    "version": "1.0",
+    "description": "A hub for git issues that you wish to work-on.",
+    "action": {
+        "default_popup": "index.html"
+    },
+    "permissions": [
+        "scripting",
+        "tabs",
+        "activeTab"
+    ],
+    "host_permissions": [
+        "https://*/*",
+        "http://*/*"
+    ]
+  }
