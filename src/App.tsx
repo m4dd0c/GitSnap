@@ -70,6 +70,7 @@ const App: React.FC = () => {
             selectedStatus={selectedStatus}
           />
         </div>
+        
         <div className="flex-grow space-y-4 ml-4">
           <IssueList issues={filteredIssues} />
           <div className="flex space-x-4 mt-4">
